@@ -1,0 +1,95 @@
+section{
+	margin: 15px;
+	color: white;
+}
+
+.nav-text{
+	font-size: 15px !important;
+	font-weight: 700 !important;
+	color: #c90003 !important;
+}
+
+.footer{
+	background-color: #c90003;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+.nav-footer{
+	float: left;
+	list-style: none;
+	font-size: 12px;
+	font-weight: 300;
+}
+
+.nav-footer li{
+	float: left;
+	height: 15px;
+	border-left: 1px solid #fff;
+	padding: 0 10px; 
+}
+
+.nav-footer li a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.nav-footer li a:hover{
+	text-decoration: underline;
+}
+
+.footer-content{
+	margin: 10px;
+}
+
+
+.card-info{
+	width: 300px;
+	background-color: #c90003;
+	box-shadow: 4px 6px 5px 0rem #dc534557;
+}
+
+.img_side{
+	background-image: url(../img/lover.jpg);
+}
+
+
+.img-fluid{
+	border-top-left-radius: 40px;  
+	border-bottom-right-radius: 40px;
+}
+
+
+.heart-shape{
+  position: relative;
+  width: 50px;
+  height: 50px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background-color: #c90003;
+}
+.heart-shape:before,
+.heart-shape:after{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  content: '';
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  background-color: #c90003	;
+}
+.heart-shape:before{
+  bottom: 0px;
+  left: -30px;
+}
+.heart-shape:after{
+  top: -30px;
+  right: 0px;
+}
