@@ -51,7 +51,7 @@
                                                     <input id="checkbox" type="checkbox">
                                                     <label for="checkbox"><span>I have read the <a href="">agreement</a></span></label>
                                                 </div>
-                                                <button class="btn btn-primary">Sign In</button>
+                                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#attestation">Sign In</button>
                                             </div>
                                         </div>
                                     </form>
@@ -73,6 +73,26 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="modal fade" id="attestation" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Attestation</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            lorem ipsum dolor sit amet
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
     </div>
     <script type="text/javascript" src="assets/js/jquery-3.5.1.js"></script>
     <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
